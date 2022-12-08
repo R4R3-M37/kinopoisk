@@ -1,0 +1,53 @@
+{
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"outDir": "dist",
+		"rootDir": "src",
+		"paths": {
+			"~/*": [
+				"src/*"
+			]
+		},
+		"lib": [
+			"dom",
+			"ES5"
+		],
+		"jsx": "react",
+		"sourceMap": true,
+		"alwaysStrict": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"strictFunctionTypes": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"allowUnreachableCode": true,
+		"suppressExcessPropertyErrors": false,
+		"suppressImplicitAnyIndexErrors": false,
+		"noStrictGenericChecks": false,
+		"noImplicitAny": true,
+		"inlineSources": true,
+		"downlevelIteration": true,
+		"noEmitOnError": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"strict": true,
+		"target": "ES5",
+		"module": "ES2022",
+		"allowJs": true,
+		"checkJs": false,
+		"noImplicitUseStrict": false,
+		"pretty": true,
+		"removeComments": true
+	}
+}

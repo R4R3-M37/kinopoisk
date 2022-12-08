@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transition-all {
+	transition-property: all !important;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+	transition-duration: 150ms !important;
+}
